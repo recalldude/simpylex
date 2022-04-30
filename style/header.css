@@ -1,0 +1,42 @@
+header{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 100px;
+    background-color:#282A35;
+    
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+em{
+    color: #005CE6;
+}
+
+.title{
+    cursor: pointer;
+}
+
+.header-containner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    font-size: 18px;
+}
+
+.login-cta{
+    background-color: #005CE6;
+    padding: 8px 30px;
+    border-radius: 10px;
+    transition: all .2s;
+}
+
+.login-cta:hover{
+    background-color: #0047b3;
+}
