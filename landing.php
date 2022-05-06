@@ -12,10 +12,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/landing.css">
     <title>Simpylex</title>
 </head>
 <body>
     <?php include('./views/header.php') ?>
-    <h1>Hello <?php echo $_SESSION['user']; ?> </h1>
+    <iframe src="http://www.phpsimplex.com/simplex/simplex.htm?l=fr" frameborder="0" margingeight="0" marginwidth="0" width="100%" height="100%" scrolling="auto"></iframe>
 </body>
 </html>
