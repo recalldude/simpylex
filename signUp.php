@@ -16,7 +16,7 @@
         ?>
         <div class="form-containner">
             <form action="signUpBack.php" method="post">
-                <h1 class="title">Sign Up</h1>
+                <h1 class="title">Inscription</h1>
                 <div class="content-containner">
                     <div class="input-containner">
                         <input type="text" name="username"  placeholder="Username" required="required">
@@ -33,8 +33,8 @@
                 </div>
                 <?php include('./modifier/signUp.php') ?>
                 <div class="action">
-                    <a href="index.php" class="btn">Sign In</a>
-                    <button type="submit">Register</button>
+                    <a href="index.php" class="btn">Connexion</a>
+                    <button type="submit">Inscription</button>
                 </div>
             </form>
         </div>

@@ -11,7 +11,6 @@
     <header>
         <a href="index.php" class="title"><h1>Sim<em>py</em>lex</h1></a>
         <div class="header-containner">
-            <a href="">Section</a>
             <?php include('modifier/header.php'); ?>
         </div>
     </header>

@@ -16,7 +16,7 @@
         ?>
         <div class="form-containner">
             <form action="signInBack.php" method="post">
-                <h1 class="title">Sign In</h1>
+                <h1 class="title">Connexion</h1>
                 <div class="content-containner">
                     <div class="input-containner">
                         <input type="text" name="username"  placeholder="Username">
@@ -27,8 +27,8 @@
                 </div>
                 <?php include('./modifier/index.php') ?>
                 <div class="action">
-                    <a href="signUp.php" class="btn">Register</a>
-                    <button type="submit">Sign in</button>
+                    <a href="signUp.php" class="btn">Inscription</a>
+                    <button type="submit">Connexion</button>
                 </div>
             </form>
         </div>
